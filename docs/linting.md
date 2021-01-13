@@ -31,7 +31,7 @@ The global `useBundler` flag does not apply to linters. This is an outstanding i
 
 See the [RuboCop CLI args](https://docs.rubocop.org/en/latest/basic_usage/#other-useful-command-line-flags) for more details on the support configuration options
 
-```json
+```jsonc
 "ruby.lint": {
   "rubocop": true
 }
@@ -39,7 +39,7 @@ See the [RuboCop CLI args](https://docs.rubocop.org/en/latest/basic_usage/#other
 
 or
 
-```json
+```jsonc
 "ruby.lint": {
   "rubocop": {
     "command": "rubocop",  // setting this will override automatic detection
@@ -62,7 +62,7 @@ or
 
 See the [standard docs](https://github.com/testdouble/standard#what-you-might-do-if-youre-really-clever) for more details on these configuration options
 
-```json
+```jsonc
 "ruby.lint": {
   "standard": true
 }
@@ -70,7 +70,7 @@ See the [standard docs](https://github.com/testdouble/standard#what-you-might-do
 
 or
 
-```json
+```jsonc
 "ruby.lint": {
   "standard": {
     "command": "standard",  // setting this will override automatic detection
@@ -88,7 +88,7 @@ or
 
 ### Configuration Options
 
-```json
+```jsonc
 "ruby.lint": {
   "reek": true
 }
@@ -96,7 +96,7 @@ or
 
 or
 
-```json
+```jsonc
 "ruby.lint": {
   "reek": {
     "command": "reek",  // setting this will override automatic detection
